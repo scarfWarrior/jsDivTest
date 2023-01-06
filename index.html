@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src ="app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Fun!</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    
+  </head>
+  <body>
+    <div class='nav'>
+        <a href='#' onclick='loadHtml("template", "template1.html")'>Template 1</a>
+        <a href="#" onclick='loadHtml("template", "templates/template2.html")'>Template 2</a>
+        <a href="#" onclick='loadHtml("template", "template3.html")'>Template 3</a>
+        <a href="#" onclick='loadHtml("template", "notafile.html")'>Not a file</a>
+    </div>
+    <div id="template" class="template">
+        This is where we load template
+    </div>
+  </body>
+</html>
